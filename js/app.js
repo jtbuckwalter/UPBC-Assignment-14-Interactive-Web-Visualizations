@@ -1,4 +1,4 @@
-const samples = '/data/samples.json'
+const samples = 'data/samples.json'
 
 d3.json(samples).then((dataSet) => {
 
