@@ -140,7 +140,7 @@ d3.json(samples).then((dataSet) => {
 
     // Update plots
     Plotly.restyle('bar', 'x', [topSampleValues]);
-		Plotly.restyle("bar", "y", [topOtuIds.map(outId => `OTU ${outId}`)]);
+		Plotly.restyle("bar", "y", [topOtuIds.map(otuID => `OTU ${otuID}`)]);
     Plotly.restyle('bar', 'text', [topOtuLabels]);
     Plotly.restyle('bar', 'text', [topOtuLabels]);
 
